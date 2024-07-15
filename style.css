@@ -1,0 +1,65 @@
+*,
+::before,
+::after{
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.heading-one{
+  font-size: 2.3em;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: center;
+}
+
+.centered{
+  margin: 0 auto;
+}
+
+.display{
+  width: 90%;
+  max-height: 100vh;
+  text-align: center;
+}
+
+.beer{
+  width: 900px;
+}
+
+.flex{
+  display: flex;
+}
+
+.wrap_and_gap{
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+
+.full-height{
+  height: 100vh;
+}
+
+.scroll{
+  overflow-y: auto;
+}
+
+.f-12{
+  font-size: 1.2em;
+}
+
+.f-16{
+  font-size: 1.6em;
+}
+
+.pb-15{
+  padding-bottom: 15px;
+}
+
+.p-8{
+  padding: 8px;
+}
